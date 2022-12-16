@@ -24,4 +24,8 @@ Create a timetable for those classes satisfying the following constraints:
 
 **With supports of Google OR-Tools, we can solve this problem !!!** 
 
-![image](https://user-images.githubusercontent.com/87572445/208047503-9dbc5983-b401-4154-9463-955a20d9f50e.png)
+
+
+
+![image](https://user-images.githubusercontent.com/87572445/208050998-5bb2fd17-6153-4970-a6e8-9d32532a0e98.png)
+
