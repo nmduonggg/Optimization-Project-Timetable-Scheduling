@@ -2,13 +2,16 @@
 
 ### Problems
 N classes: 1, 2, ..., N need to be assigned.
-- Each class i has t(i): number of periods needed, g(i): teacher, s(i): number of students
-M rooms: 1, 2, ..., M 
-- Each room i has c(i) number of seats
-There are 5 scholar days a week, from Monday to Friday, each day is divided into 12 periods
-(Morning: 6 periods/ Afternoon: 6 periods)
+- Each class i has t(i): number of periods needed, g(i): teacher, s(i): number of students.
 
-Create a timetable for those classes satisfying the following constraints:
+M rooms: 1, 2, ..., M available.
+- Each room i has c(i) number of seats.
+
+There are 5 scholar days a week, from Monday to Friday, each day is divided into 12 periods.
+
+(Morning: 6 periods/ Afternoon: 6 periods).
+
+**Create a timetable for those classes satisfying the following constraints:**
 1. Classes with the same teacher can not be on the same period
 2. Number of students need to be smaller than number of seats
 
