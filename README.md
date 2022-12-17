@@ -23,7 +23,7 @@ There are 5 scholar days a week, from Monday to Friday, each day is divided into
   Also, the total period taught by him/her in each block cannot exceed maxperiod (6)
 - A class i cannot change room during its section, then the total periods taken by it can only be 0 (not assigned) or t(i) (is assigned)
 - A class i has to be assigned once in a whole week then total periods taken by it for whole week = t(i)
-- One room cannot contain 2 class at the same period, then when a class i in assigned to a room j, the next t(i) periods of room j need to be blocked.
+- One room cannot contain 2 class at the same period, then when a class i in assigned to a room j, the next t(i) - 1 periods of room j need to be blocked.
 
 **With supports of Google OR-Tools, we can solve this problem !!!** 
 
