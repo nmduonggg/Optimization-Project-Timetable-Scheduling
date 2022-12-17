@@ -1,6 +1,10 @@
 ## OPTIMIZATION_TimeScheduling
 
-### Problems
+
+### !! For more information, please read the Optimization_Modelling pdf file !!
+
+
+### 1. Problems
 N classes: 1, 2, ..., N need to be assigned.
 - Each class i has t(i): number of periods needed, g(i): teacher, s(i): number of students.
 
@@ -15,7 +19,7 @@ There are 5 scholar days a week, from Monday to Friday, each day is divided into
 1. Classes with the same teacher can not be on the same period
 2. Number of students need to be smaller than number of seats
 
-### Solution
+### 2. Solution
 **I will divide 5 days - 60 periods into 10 blocks, each block contains 6 periods.**
 - All of classes can not be assigned in 2 separated blocks
 - I define a boolean variable Assign(i, m, k, b) for whether "assign class i in room b in period b of block k" or not
