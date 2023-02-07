@@ -1,4 +1,4 @@
-def evaluation(timetable, rooms, teachers):
+def evaluation(timetable: list, rooms: dict, teachers: list):
     TheScore = 0
 
     # HARD CONSTRAINTS
